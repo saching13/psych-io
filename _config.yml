@@ -102,8 +102,25 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: splash
+      layout: single
       author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 category_archive:
   type: liquid
