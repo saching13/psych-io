@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a Computer vision roboticist at Luxonis.  
+I am a Computer vision roboticist at Luxonis. 
